@@ -1,0 +1,12 @@
+# Allow only JPEG slides and these repo docs. Never secrets or other files.
+*
+!*/
+!.gitignore
+!README.md
+!LICENSE
+!**/*.jpg
+!**/*.jpeg
+**/*token*
+**/*secret*
+**/*.env
+**/credentials*
